@@ -1,0 +1,42 @@
+body {
+    font-family: 'Cairo', sans-serif;
+
+}
+
+.workshopsSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.wsps {
+    width: 250px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #457b9d;
+}
+
+.workshopsSection img {
+    border-radius: 15px;
+
+}
+
+
+.wsps div {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: white;
+
+}
+
+@media only screen and (max-width: 320px){
+   .wsps{
+    width: 190px;
+   }
+}
